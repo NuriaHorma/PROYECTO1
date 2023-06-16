@@ -1,0 +1,143 @@
+
+
+:root{
+  --text-font: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  --parrafo-font-size: 50px:
+}
+
+*, *::before *::after{
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  max-height: 100%;
+  overflow-x: hidden;
+}
+
+p{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+  font-family:'Courier New', Courier, monospace;
+}
+
+.logo-container{
+  display: block;
+  margin: auto;
+  width: 350px;
+  height: 150px;
+
+}
+
+.parrafo{
+  max-width: 100%;
+  font-family: var(--text-font);
+font-size: var(--parrafo-font-size);
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+
+
+}
+
+.links {
+  text-decoration: none;
+  color: black;
+}
+
+.menu-options{
+  height: 100% auto;
+  width: 100% auto;
+  padding: 1rem;
+  background-color: #e2cfa7;
+  list-style: none;
+  overflow: block;
+  margin: 40px 20px 20px 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: var(--text-font)
+}
+
+@media  screen and (max-width: 860px){
+.menu-options{
+  list-style-type: disc;
+  flex-direction: column;
+  align-items: start;
+  text-decoration: none;
+  font-family: var(--text-font);
+
+}
+
+.option{
+  margin-left: 10%;
+margin-bottom: 2%;
+}
+img{
+  align-items: center;
+}
+}
+
+
+.option:hover{
+background-color: blanchedalmond;
+cursor: pointer;
+}
+
+.title{
+  
+  max-width: 1000px;
+  margin: 60px 20px 20px 40px;
+  
+}
+
+
+
+.container2{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.product-list{
+max-width: 100%;
+
+}
+
+.product-list p{
+ font-family: var(--text-font);
+ font-size: var(--parrafo-font-size);
+ margin: 2% 2% ;
+ text-align: justify;
+}
+
+.price {
+  font-style: italic;
+}
+
+
+.container3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.child:hover{
+  background-color: blanchedalmond;
+  cursor: pointer;
+  }
